@@ -9,6 +9,7 @@ module.exports = {
   entities: ['dist/entities/*entity.js'],
   migrations: ['dist/migrations/*.js'],
   cli: {
+    // 出力先
     entitiesDir: 'src/entities',
     migrationsDir: 'src/migrations',
   },
